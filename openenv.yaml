@@ -1,0 +1,11 @@
+name: ai_gold_finder_env
+description: Environment simulating gold purity detection
+version: 1.0
+
+environment:
+  entry_point: environment:GoldEnv
+
+tasks:
+  - easy
+  - medium
+  - hard
